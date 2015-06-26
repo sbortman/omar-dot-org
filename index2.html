@@ -6,6 +6,10 @@
     <title>OMAR | Welcome</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation/foundation.js"></script>
+    <script src="js/vendor/lightbox2/js/lightbox.min.js"></script>
+    <link href="js/vendor/lightbox2/css/lightbox.css" rel="stylesheet">
   </head>
   <body>
            
@@ -21,105 +25,121 @@
               <hr>
               <div class="row">
                 <div class="large-6 columns large-centered">
-                  <ul class="button-group even-3">
-                    <li><a href="#" class="button">Home</a></li>
-                    <li><a href="#" class="button">About</a></li>
-                    <li><a href="#" class="button">Contact</a></li>
+                  <ul class="button-group even-2">
+                    <li><a href="#main-content" class="button">About</a></li>
+                    <li><a href="#demo-request" class="button">Contact</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        
+
         <div class="row">
           <div class="large-6 columns about-box">
             <div class="black-box">
               <h2></h2>
               <p>OMAR&trade; is deployed on public and classified networks providing remote access to imagery and video fo warfighters and commercial analysts. Ships at sea, rescue missions, numerous patrols, and regular service personnel are routinely reporting how these quick looks have assisted their missions on a daily basis.
-              <p>Want a demo?</p> 
-              <a href="#" class="secondary small button">Learn More →</a>
+              <p><a href="#main-content" class="secondary small button">Learn More</a></p>
             </div>
           </div>
         </div>
       </section>
       
+      
       <section class="hero-content"> 
       <div class="row">
-        <div class="large-8 columns about-content">
+        <div class="large-12 columns about-content">
           <h4>OMAR&trade;</h4>
-          <p>OMAR&trade; is open source software. It is developed and maintained in an online, distributed, and unclassified environment. The only exceptions are modular classified “plug-ins” that are maintained separately in classified networks. This architecture and approach allows development and integration at “Internet speed.”</p>
+          <p>Is open source software. It is developed and maintained in an online, distributed, and unclassified environment. The only exceptions are modular classified “plug-ins” that are maintained separately in classified networks. This architecture and approach allows development and integration at “Internet speed.”</p>
           <p>The rapid evolution of this system is made possible through the use of open source software projects, policies, and procedures led by the Open Source Geospatial (OSGeo) Foundation. OSGeo is the leading organization for open source software projects. OSGeo provides governance, standards, practices, code review, automated testing, and configuration management for leading open source geospatial projects.</p>
+          <p>Get the <a href="https://github.com/radiantbluetechnologies/omar">Code!</a>&nbsp;<a href="https://github.com/radiantbluetechnologies/omar"><img src="img/blacktocat37x37.png"></a></p>
         </div>
-        <div class="large-4 columns">
-          <ul class="small-block-grid-2">
-            <li><a href="#"><img src="img/figure1.jpg"/></a></li>
-            <li><a href="#"><img src="img/figure2.jpg"/></a></li>
-            <li><a href="#"><img src="img/figure3.jpg"/></a></li>
-            <li><a href="#"><img src="http://placehold.it/180x180"/></a></li>
-          </ul>
-        </div>
+        
       </div>
       </section>
+    
 
       <section id="main-content">
-        <div class="row centered-text">
+        <div class="row">
           <div class="large-12 columns">
-            <h2>About OMAR&trade;</h2>
-              <h4 class="subheader">Modern multi-int in the browser</h4>
-
+              <h2 class="subheader text-center">Modern multi-int in the browser.</h2>
           </div>
-        </div>     
+          
+          <div class="row">
+            <div class="large-12 columns panel">
+              
+                <div class="large-6 columns">
+                  
+                  
+                  <!--<a href="img/figure1.jpg" data-lightbox="image-1" data-title="My caption"><img src="img/figure1.jpg"/></a>-->
+                  <a href="http://placehold.it/600x400.jpg" data-lightbox="image-1" data-title="My caption"><img src="http://placehold.it/465x322.jpg"/></a>
+                  <!--<h3 class="subheader">Pan, Zoom, and Filter</h3>-->
+                  <h3>Pan, Zoom, and Filter</h3>
+                </div>
+                <div class="large-6 columns">                 
+                  A simple Web browser provides the interface to the OMAR system. The map can be panned and zoomed to identify the area of interest. Date, time and other fields can be used to filter the desired search results.
+                  <br>
+                  <img src="img/compass75x75.png">
+                </div>
+                  
+            </div>
+          </div>     
+           <div class="row">
+            <div class="large-12 columns panel">
+              
+              <div class="large-6 columns">
+                  Views are calculated and presented on the fly with full orthorectification and precision terrain correction. Data courtesy of DigitalGlobe Corporation.
+                  <br>
+                  <img src="img/gears75x43.png">
+                </div>
+                <div class="large-6 columns">
+                  
+                  <img src="img/figure3.jpg"/>
+                  <h3 class="subheader">Orthorectify Automatically</h3>
+                </div>
+                
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-12 columns panel">
+              
+                <div class="large-6 columns">
+                  Tabbed pages of metadata and an overview thumbnail are returned from the user’s search request.
+                  <p>
+                    <img src="img/satellite75x75.png">
+                  </p>
+                </div> 
+                <div class="large-6 columns">
+                  
+                  <img src="img/figure2.jpg"/>
+                  <h3 class="subheader">Results with Meta-data</h3>
+                </div>
+            </div>
+          </div>
+
+         
       </section>
 
+      <section id="demo-request">
+        <div class="row">
 
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="panel">
-            <div class="row">
-              <div class="large-9 columns">
-                <h4>Request a demo.</h4>
-                <p>Web pages can only show so much, if you'd like a demonstration, get in touch.
-              </div>
-
-
-
-<!--
-              <div class="large-3 columns">
-                <a href="#" class="radius button right">Contact Us</a>
+        <div class="large-12 columns panel">
+        
+          
+            
+              
+                
+                  <h4>Request a demo.</h4>
+                  <p>Web pages can only show so much, if you'd like a demonstration, get in touch.
+                  <br>
+                  <a href="malto:info@radiantblue.com?Subject=OMAR%20Demo%20Request" class="button round success">Demo Request</a>
+        
+  
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns large-centered">
-          <div class="panel">
-            <div class="row">
-              <div class="large-8 columns">
-                <h4>text 1</h4>
-                <p>
-              </div>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="row">
-              <div class="large-8 columns">
-                <h4>text 1</h4>
-              </div>
-            </div>
-          </div>
-          <div class="panel">
-            <div class="row">
-              <div class="large-8 columns">
-                <h4>text 1</h4>
-              </div>
-            </div>
-          </div>
-          </div>
-        </div>
--->
-      </div>
-      </div>
+      </seciton>
       <footer>
         <div class="row">
           <div class="large-6 columns">
@@ -135,6 +155,8 @@
         </div>
       </footer>
       
+
+
     <script src="js/foundation/foundation.clearing.js"></script> 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
